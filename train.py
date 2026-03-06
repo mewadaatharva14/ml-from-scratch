@@ -1,17 +1,3 @@
-"""
-Training Entry Point
-=====================
-Trains any model in this repository from the command line.
-
-Usage:
-    python train.py --model regression --config configs/regression_config.yaml
-    python train.py --model logistic   --config configs/logistic_config.yaml
-    python train.py --model nn         --config configs/nn_config.yaml
-
-Arguments:
-    --model  : one of {regression, logistic, nn}
-    --config : path to the YAML config file for that model
-"""
 
 import argparse
 import os
