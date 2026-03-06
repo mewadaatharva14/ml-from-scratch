@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data — never commit raw data or large files
+data/raw/
+*.csv
+*.h5
+*.pkl
+*.npy
+*.npz
+
+# Model checkpoints
+*.pt
+*.pth
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs & outputs
+logs/
+runs/
+wandb/
+
+# Environment variables
+.env
+.env.local

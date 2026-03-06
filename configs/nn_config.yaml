@@ -1,0 +1,17 @@
+data:
+  val_split: 55000           # first 55000 for train, remaining 5000 for val
+  num_classes: 10
+  input_dim: 784             # 28x28 flattened
+
+model:
+  weight_init_scale: 0.01
+  hidden_dim: 128            # 784 → 128 → 10
+
+training:
+  learning_rate: 0.1
+  epochs: 200
+  log_interval: 10
+  lambda_reg: 0.1
+
+reproducibility:
+  random_seed: 42
