@@ -1,3 +1,4 @@
+# ml-from-scratch/src/neural_network.py
 import numpy as np
 
 class NeuralNetwork:

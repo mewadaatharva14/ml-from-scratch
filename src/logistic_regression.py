@@ -1,4 +1,4 @@
-
+# ml-from-scratch/src/logistic_regression.py
 import numpy as np
 
 class LogisticRegression:
