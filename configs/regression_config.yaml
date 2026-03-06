@@ -1,12 +1,18 @@
+# Polynomial Regression — Gradient Descent + Normal Equation
+# California Housing Dataset
+
 data:
-  test_size : 0.2
-  random_state : 42
+  test_size: 0.2
+  random_seed: 42
 
 model:
-  degress : 2 #polynomial degree x^2
-  weight_init_scale : 0.01 # weight initialized multiplier
+  degree: 2                  # polynomial degree (x and x^2 terms)
+  weight_init_scale: 0.01    # random weight init multiplier
 
 training:
-  learning_rate : 0.00001
-  epochs : 2000
-  log_interval : 100 #print log function at evey 100 time interval
+  learning_rate: 0.00001
+  epochs: 2000
+  log_interval: 100          # print loss every 100 epochs
+
+reproducibility:
+  random_seed: 42

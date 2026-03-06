@@ -14,3 +14,6 @@ training:
   log_interval: 100
   lambda_reg: 0.1            # L2 regularization strength
   threshold: 0.5             # decision boundary for binary prediction
+
+reproducibility:
+  random_seed: 42
